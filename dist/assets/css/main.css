@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    background: url(../img/bg.jpg) center center / cover no-repeat;
+    background-color: black;
+}
+
+label {
+    color: #fff;
+    margin: 10px 0;
+}
+
+a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+    color: #969696;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    height: 41px;
+    padding: 10px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #dfdfdf;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #dfdfdf;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #dfdfdf;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #dfdfdf;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #dfdfdf;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #dfdfdf;
+}
+
+button {
+    background: 0 0;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    font-family: "PT Sans",sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 9px 69px;
+    margin-top: 20px;
+    transition: .6s all;
+}
+
+button:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.msg {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    background: 0 0;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    font-family: "PT Sans",sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 9px 33px;
+    margin-top: 20px;
+    transition: .6s all;
+}
+
+.logout:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.profile {
+    margin: 0 auto;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.collection {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 863px 1040px;
+    }
+    &__photo {
+        min-height: 600px;
+        background: url(../img/collect.png) center center / cover no-repeat;
+    }
+    &__descr {
+        padding: 100px 0;
+    }
+    &__title {
+        font-family: "Playfair Display", sans-serif;
+        margin-bottom: 40px;
+    }
+    &__text {
+        font-family: "PT Sans", sans-serif;
+        font-size: 14px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto;
+        width: 471px;
+        margin-top: 40px;
+    }
+    &__btn {
+        margin-top: 61px;
+    }
+}

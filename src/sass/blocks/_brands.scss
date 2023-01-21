@@ -1,0 +1,19 @@
+.brands {
+    padding: 60px 0 80px 0;
+    background-color: #0F0F0F;
+    &__title {
+        font-family: "Playfair Display", sans-serif;
+        margin-bottom: 40px;
+    }
+    &__items {
+        display: flex;
+        margin-top: 40px;
+    }
+    &__item {
+        margin-right: 25px;
+        width: 255px;
+        img {
+            width: 100%;
+        }
+    }
+}
